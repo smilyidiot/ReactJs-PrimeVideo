@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.thumbnail {
+  width: 315px;
+  height: 180px;
+  cursor: pointer;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: white;
+}
+
+.close-button {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 0px solid;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.player {
+  margin-top: 12px;
+  margin-left: 48px;
+  margin-bottom: 48px;
+  margin-right: 48px;
+}

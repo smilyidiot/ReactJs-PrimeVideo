@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.slider-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
